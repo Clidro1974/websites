@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Little Lemon</title>
+
+  <meta property="og:title" content="Our Menu">
+  <meta property="og:type"  content="website">
+  <meta property="og:image" content="logo.png">
+  <meta property="og:url"   content="https://littlelemon/">
+  <meta property="og:description" content="Little Lemon is a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Little Lemon">
+
+  <link rel="stylesheet" href="styles.css">
+</form>
+
+</head>
+<body>
+  <header>
+    <img src="logo.png">
+  </header>
+  <main>
+    <form>
+      <div>
+    <label for="user_first_name">Nombre</label><br>
+    <input type="text" id="user_first_name" name="user_first_name" required minlength="2">
+      </div>
+      <div>
+      <label for="user_first_name">Password</label><br>
+      <input type="password" id="password" name="password" required minlength="5">
+      </div>
+      <fieldset id="size">
+        <label><input type="radio" value="2" name="size"> Opción 2 </label>
+        <label><input type="radio" value="4" name="size" checked> Opción 3 </label>
+        <label><input type="radio" value="6" name="size"> Opción 4 </label>
+      </fieldset>
+      <fieldset id="location">
+        <input type="radio" value="indoors" name="location"> indoors 
+        <input type="radio" value="outdoors" name="location"> outdoors
+      </fieldset>
+      <button type="submit">Enviar</button>
+  </main>
+</body>
+
+</html>
